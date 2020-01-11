@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "@/views/Home.vue";
+import Home from "@/pages/Home.vue";
+import User from "@/pages/User.vue";
 
 Vue.use(VueRouter);
 
@@ -11,9 +12,14 @@ const routes = [
     component: Home
   },
   {
+    path: "/users/:id",
+    name: "user",
+    component: User
+  },
+  {
     path: "/about",
-    name: "about",
-    component: () => import("@/views/About.vue")
+    name: "About",
+    component: () => import("@/pages/About.vue")
   }
 ];
 
