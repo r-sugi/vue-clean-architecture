@@ -10,6 +10,6 @@ export class StoreUser implements FluxStandardAction {
   constructor(public payload: IUser) {}
 }
 
-export class ClearItem implements FluxStandardAction {
+export class ClearUser implements FluxStandardAction {
   type = Types.CLEAR_USER;
 }
