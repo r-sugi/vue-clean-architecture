@@ -11,8 +11,8 @@ export const initialState = (): UserState => {
     page: 1,
     size: 20,
     user: {
-      firstName: "",
       familyName: "",
+      firstName: "",
       gender: ""
     }
   };

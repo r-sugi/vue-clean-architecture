@@ -20,7 +20,6 @@ export default class UserRepository implements BaseRepository {
     store.commit(new ClearUser());
   }
 
-  // TODO: Manage item with ID
   getUser(): IUser {
     return store.state.user.user;
   }
