@@ -11,7 +11,7 @@
     "server": "json-server --watch --port 4000 ./src/lib/mock/db.json --routes ./src/lib/mock/routes.json"
   },
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "core-js": "^3.4.4",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
